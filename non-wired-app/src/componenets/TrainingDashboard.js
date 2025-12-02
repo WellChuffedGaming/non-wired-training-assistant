@@ -1,10 +1,7 @@
-export default function TrainingDashboard() {
-  return <div>Welcome to the Training Dashboard</div>;
-}
 import { useState } from 'react';
 
 export default function TrainingDashboard() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0); // state variable
 
   return (
     <div>
